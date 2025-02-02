@@ -24,5 +24,5 @@ document.getElementById('addToCalendar').addEventListener('click', function () {
 document.getElementById('downloadImage').addEventListener('click', function () {
   alert('Downloading invitation image...');
   // This will redirect to the Canva design
-  window.location.href = "https://github.com/rajesh790897/kulsum/blob/main/Kulsum's%20Birthday%20Invitation%20Card.png";
+  window.location.href = "https://raw.githubusercontent.com/rajesh790897/kulsum/refs/heads/main/Kulsum's%20Birthday%20Invitation%20Card.png";
 });
