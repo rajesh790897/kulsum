@@ -24,5 +24,5 @@ document.getElementById('addToCalendar').addEventListener('click', function () {
 document.getElementById('downloadImage').addEventListener('click', function () {
   alert('Downloading invitation image...');
   // This will redirect to the Canva design
-  window.location.href = "https://www.canva.com/design/DAGd8p32jW8/djSKvc19faVN8jTje4ZU0Q/view?utm_content=DAGd8p32jW8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha6509a30d9";
+  window.location.href = "Kulsum's Birthday Invitation Card.png";
 });
