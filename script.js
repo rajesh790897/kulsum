@@ -22,7 +22,11 @@ document.getElementById('addToCalendar').addEventListener('click', function () {
 });
 
 document.getElementById('downloadImage').addEventListener('click', function () {
-  alert('Downloading invitation image...');
-  // This will redirect to the Canva design
-  window.location.href = "https://raw.githubusercontent.com/rajesh790897/kulsum/refs/heads/main/Kulsum's%20Birthday%20Invitation%20Card.png";
+  const imageUrl = "https://raw.githubusercontent.com/rajesh790897/kulsum/refs/heads/main/Kulsum's%20Birthday%20Invitation%20Card.png"; // Change this to the correct file path or URL
+  const link = document.createElement("a");
+  link.href = imageUrl;
+  link.download = "Kulsum_Birthday_Invitation.png"; // The file name when downloaded
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 });
