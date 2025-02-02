@@ -13,8 +13,8 @@ document.getElementById('addToCalendar').addEventListener('click', function () {
   const eventTitle = "Kulsum's 18th Birthday Party";
   const eventDetails = "Come celebrate Kulsum's birthday! 🎂🥳";
   const eventLocation = "Gadraja, Rajnagar, Birbhum";
-  const startTime = "20250214T1000000Z";
-  const endTime = "20250210T110000Z";
+  const startTime = "20250214T100000Z";
+  const endTime = "20250214T110000Z";
 
   const googleCalendarUrl = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(eventTitle)}&details=${encodeURIComponent(eventDetails)}&location=${encodeURIComponent(eventLocation)}&dates=${startTime}/${endTime}`;
 
