@@ -22,7 +22,7 @@ document.getElementById('addToCalendar').addEventListener('click', function () {
 });
 
 document.getElementById('downloadImage').addEventListener('click', function () {
-  const imageUrl = "https://your-alternative-image-host.com/Kulsum_Birthday_Invitation.png"; // Replace with a working direct link
+  const imageUrl = "https://raw.githubusercontent.com/rajesh790897/kulsum/refs/heads/main/Kulsum's%20Birthday%20Invitation%20Card.png"; // Replace with a working direct link
   const link = document.createElement("a");
   link.href = imageUrl;
   link.download = "Kulsum_Birthday_Invitation.png"; // The file name when downloaded
